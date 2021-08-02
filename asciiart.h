@@ -11,7 +11,7 @@ public:
     static QImage toGray(const QImage& image );
     //随机阈值法转离散二值图像
     static QImage toDiscreteBinaryValue(QImage &image);
-    QImage byFloydSteinburg(QImage& image);
+    static QImage byFloydSteinburg(QImage image);
 };
 
 #endif // ASCIIART_H

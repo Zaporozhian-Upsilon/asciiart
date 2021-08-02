@@ -27,6 +27,8 @@ private slots:
 
     void on_pushButton_dbg_clicked(bool checked);
 
+    void on_pushButton_clicked(bool checked);
+
 private:
     static void showImgOnQLabel(const QImage &image, QLabel *label);
     Ui::MainWindow *ui;
